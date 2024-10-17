@@ -1,0 +1,63 @@
+td {
+  width: 30px;
+  height: 30px;
+  background: #fafafa;
+  border: 1px solid black;
+  text-align: center;
+}
+.path {
+  background: lightblue;
+}
+
+.current {
+  background: greenyellow;
+}
+.exploring {
+  background: yellow;
+}
+.explored {
+  background: lightgrey;
+}
+.obstacle {
+  background: #333232;
+}
+
+.start {
+  position: relative;
+  &:after {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    content: "";
+    border-radius: 50%;
+    background-color: #e62020;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.goal {
+  position: relative;
+  &:after {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    content: "";
+    border-radius: 50%;
+    background-color: blue;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.start-hover {
+  &:hover {
+    cursor: pointer;
+    background-color: #ef535399;
+  }
+}
+
+.goal-hover {
+  &:hover {
+    cursor: pointer;
+    background-color: #5151f7a6;
+  }
+}
