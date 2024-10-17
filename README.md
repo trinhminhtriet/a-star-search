@@ -8,7 +8,7 @@ A\* (pronounced "A-star") is a widely used graph traversal and pathfinding algor
 To install **a-star-search**, simply clone the repository and follow the instructions below:
 
 ```bash
-git clone https://github.com/trinhminhtriet/a-star-search
+git clone git@github.com:trinhminhtriet/a-star-search.git
 cd a-star-search
 
 nvm install 12.22.12
