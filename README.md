@@ -17,6 +17,11 @@ npm install
 npm run start
 ```
 
+To build production
+```bash
+npm run build -- --prod
+```
+
 ## 🤝 How to contribute
 
 We welcome contributions!
@@ -31,3 +36,7 @@ Once your pull request has been merged, you can delete your branch.
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🎬 Demo
+
+https://trinhminhtriet.com/algorithms/a-star-search/
