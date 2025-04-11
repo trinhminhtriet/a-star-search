@@ -39,4 +39,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🎬 Demo
 
-<a target="_blank" href="https://trinhminhtriet.com/algorithms/a-star-search/">Demo URL</a>
+<a target="_blank" href="https://pages.trinhminhtriet.com/a-star-search/">Demo URL</a>

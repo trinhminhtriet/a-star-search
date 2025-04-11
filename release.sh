@@ -54,7 +54,7 @@ function deploy() {
         VERSION=$(jq -r '.version' package.json)
         echo "Deploy version: $VERSION"
         mv artifacts/version.json docs/version.json
-        tar -czf v$VERSION.tar.gz docs
+        tar -czf artifacts/v$VERSION.tar.gz docs
         echo "Deploy success"
     else
         echo "Build failed, skip deploy"
